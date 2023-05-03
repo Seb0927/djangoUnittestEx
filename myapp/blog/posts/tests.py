@@ -62,6 +62,4 @@ class TestPostModel(TestCase):
     client = Client()
     response = client.get(reverse('post', args=[self.testPost.pk]))
     self.assertTemplateUsed(response, 'posts.html')
-
-  def test_post_POST(self):
     
