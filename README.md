@@ -7,5 +7,5 @@ python manage.py runserver
 Para correr las respectivas pruebas:
 
 ```
-.\manage.py test
+python manage.py test
 ```
